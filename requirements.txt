@@ -1,0 +1,11 @@
+# Library versions bulk_rnaseq_analysis.ipynb was run with (Python 3.12.14, 2026-10-10).
+# salmon_quantification.ipynb installs Salmon 1.10.0 (Linux binary) and uses pandas only.
+# Install with: pip install -r requirements.txt
+
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+matplotlib==3.11.2
+joblib==1.6.0
+pydeseq2==0.5.4
+gseapy==1.3.1

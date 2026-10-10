@@ -1,0 +1,17 @@
+# outputs written by the notebooks
+results/
+*.pdf
+*.png
+
+# data and references
+*.csv
+*.fastq.gz
+*.fa.gz
+*.gtf
+*.gtf.gz
+salmon-*/
+
+# environment
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
