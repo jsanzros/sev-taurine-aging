@@ -15,6 +15,7 @@ environment with the tested versions: `pip install -r requirements.txt`.
 |---|---|---|
 | `salmon_quantification.ipynb` | Salmon index of the Ensembl mouse transcriptome, per-sample quantification, gene-level count matrix | Trimmed FASTQ files |
 | `bulk_rnaseq_analysis.ipynb` | DESeq2, preranked GSEA of GO Biological Process 2023, fold change against gene length, youthful score of a treatment against an aging signature with an exact permutation null | Gene count matrix and sample sheet |
+| `cell_type_deconvolution.ipynb` | Deconvolution against the Allen Brain Cell Atlas whole-mouse-brain taxonomy (NNLS, nu-SVR cross-check), cell-type fractions and group tests, OXPHOS content of each cell type | Gene count matrix and sample sheet |
 
 ## Figure panels
 
@@ -23,11 +24,13 @@ environment with the tested versions: `pip install -r requirements.txt`.
 | Fig. 6 | B (fold change by gene length) | `bulk_rnaseq_analysis` |
 | Fig. 6 | C, D (youthful score and permutation null) | `bulk_rnaseq_analysis` |
 | Fig. 6 | E (GSEA) | `bulk_rnaseq_analysis` |
+| Fig. S4 | a-c (cell-type deconvolution) | `cell_type_deconvolution` |
 
 ## Data
 
 `data/GSE338230.md` describes the gene-level count matrix deposited in GEO (GSE338230), the input of
 `bulk_rnaseq_analysis`. The raw reads are in the same GEO series.
+`data/allen_brain_cell_atlas.md` describes the Allen Brain Cell Atlas reference used by `cell_type_deconvolution`.
 
 ## License
 
