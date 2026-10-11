@@ -24,7 +24,7 @@ environment with the tested versions: `pip install -r requirements.txt`.
 | Fig. 6 | B (fold change by gene length) | `bulk_rnaseq_analysis` |
 | Fig. 6 | C, D (youthful score and permutation null) | `bulk_rnaseq_analysis` |
 | Fig. 6 | E (GSEA) | `bulk_rnaseq_analysis` |
-| Fig. S4 | a-c (cell-type deconvolution) | `cell_type_deconvolution` |
+| Fig. S4 | A-C (cell-type deconvolution) | `cell_type_deconvolution` |
 
 ## Data
 
